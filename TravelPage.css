@@ -1,0 +1,218 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1f3b90;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  position: sticky;
+  top: 0;
+  background-color: beige;
+  color: #47acff;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 100; /* Ensures the header appears above other content */
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  margin-left: -1700px;
+  background-color: #47acff;
+  color: beige;
+  padding: 16px;
+  font-size: 40px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  margin-left: -917px;
+  display: none;
+  position: absolute;
+  background-color: beige;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #47acff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: beige;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #47acff;}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #47acff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url('https://nareng.uk/wp-content/uploads/2023/02/jesse-gardner-wTVr4HR4SBI-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  color: beige;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  font-size: 48px;
+  color: #47acff;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #47acff;
+  color: beige;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #47acff;
+}
+
+/* Featured section styles */
+.featured {
+  text-align: center;
+  padding: 40px 0;
+  color: #47acff;
+}
+
+.featured h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.destination {
+  background-color: beige;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #47acff;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.destination img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.destination h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Newsletter section styles */
+.newsletter {
+  background-color: #47acff;
+  color: beige;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.newsletter h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.newsletter p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter input[type='email'] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+  font-size: 16px;
+}
+
+.newsletter button {
+  background-color: #333;
+  color: beige;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1f3b90;
+  color: beige;
+  text-align: center;
+  padding: 20px 0;
+}
